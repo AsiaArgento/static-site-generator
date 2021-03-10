@@ -5,7 +5,8 @@ module.exports = function(config) {
   return {
     dir: {
       input: "src",
-      output: "dist"
+      output: "dist",
+      data: "_data"
     }
   };
 
